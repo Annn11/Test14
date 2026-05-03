@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Objects;
 
-public class Driver {
+public class Driver implements Identifiable {
     private String id;
     private String name;
     private String car;
